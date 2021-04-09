@@ -15,3 +15,23 @@ body {
   margin: 0;
 }
 /* End: Global Styles */
+.add {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  background-color: #9ec862;
+  border: none;
+  border-radius: 3px;
+  padding: 0.5rem 1rem;
+  color: #eee;
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+.add:hover {
+  opacity: 1;
+}
+
+.add:focus {
+  outline-color: #94eb1c;
+}
